@@ -27,7 +27,7 @@ int read_numbers(double **numbers) {
         if (size >= capacity) {
             capacity *= 2;
             double *temp_array = realloc(array, capacity * sizeof(double));
-            if (temp_array == NULL) {
+            if (temp_array == NULL) {  
                 free(array);
                 perror("Unable to allocate more memory");
                 exit(EXIT_FAILURE);

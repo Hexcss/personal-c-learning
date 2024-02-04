@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stdio.h": "c",
-        "calculator_controller.h": "c"
+        "calculator_controller.h": "c",
+        "stdlib.h": "c"
     }
 }
